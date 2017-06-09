@@ -1,0 +1,85 @@
+/*body {
+  padding-top: 70px;
+}*/
+
+@media screen and (max-width: 992px) {
+  .phone-separator {
+    padding-top: 10px;
+  }
+  .container {
+    max-width: 700px;
+    margin-left: : auto;
+    margin-right: auto;
+  }
+}
+
+.projects-gallery .col-md-4 img {
+  margin: auto;
+  width: 100%;
+}
+
+#hero-img img {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 2400px) {
+  #hero-img {
+    width: 2200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: rgb(236, 209, 150);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 80px;
+  background-color: #f5f5f5;
+}
+
+#footer-text {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #777;
+}
+
+.projects-gallery .col-md-4 {
+  padding: 10px;
+}
+
+#contact-icons a {
+  margin-left: 0;
+}
+
+#contact-icons a:active,
+#contact-icons a:visited,
+#contact-icons a:link {
+  text-decoration: none;
+  color: #777;
+}
+
+#contact-icons a:hover {
+  color: rgb(236, 209, 150);
+}
+
+#icons-gold {
+  font-weight: bolder;
+}
+
+#icons-gold li a:hover {
+  color: rgb(236, 209, 150);
+}
